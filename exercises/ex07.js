@@ -31,21 +31,27 @@ switch(education){
         console.log(`In 2015, a person with ${education} earned an average of $${salary.toLocaleString("en-us")}/year.`);
         break;
     case "High School diploma":
-        console.log(`In 2015, a person with ${education} earned an average of $35,256/year.`);
+        salary = 35256;
+        console.log(`In 2015, a person with ${education} earned an average of $${salary.toLocaleString("en-us")}/year.`);
         break;
     case "Asociate degree":
-        console.log(`In 2015, a person with ${education} earned an average of $41,496/year.`);
+        salary = 41496;
+        console.log(`In 2015, a person with ${education} earned an average of $${salary.toLocaleString("en-us")}/year.`);
         break;
     case "Bachelor's degree":
-        console.log(`In 2015, a person with ${education} earned an average of $59,124/year.`);
+        salary = 59124;
+        console.log(`In 2015, a person with ${education} earned an average of $${salary.toLocaleString("en-us")}/year.`);
         break;
     case "Master's degree":
-        console.log(`In 2015, a person with ${education} earned an average of $69,732/year.`);
+        salary = 69732; 
+        cconsole.log(`In 2015, a person with ${education} earned an average of $${salary.toLocaleString("en-us")}/year.`);
         break;
     case "Professional degree":
-        console.log(`In 2015, a person with ${education} earned an average of $89,960/year.`);
+        salary = 89960;
+        console.log(`In 2015, a person with ${education} earned an average of $${salary.toLocaleString("en-us")}/year.`);
         break;
     case "Doctoral degree":
-        console.log(`In 2015, a person with ${education} earned an average of $84,396/year.`);
+        salary = 84396;
+        console.log(`In 2015, a person with ${education} earned an average of $${salary.toLocaleString("en-us")}/year.`);
         break;       
 }
