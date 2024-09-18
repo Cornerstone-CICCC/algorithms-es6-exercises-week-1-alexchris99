@@ -5,3 +5,8 @@ for (x < 10; x++) {
   console.log(x);
 }
 */
+for (let x = 0; x < 10; x++) {
+  if(x >= 5 && x <= 9 ){
+    console.log(x);
+  }
+}
