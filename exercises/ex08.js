@@ -25,5 +25,5 @@ while (x < 100) {
     }else{
         console.log(x)
     }
-    i+=1
+    x+=1
 }
