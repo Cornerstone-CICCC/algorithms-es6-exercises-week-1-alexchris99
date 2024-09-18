@@ -1,5 +1,6 @@
 /*
-From the smallest of creatures to the largest of animals, inevitably every living, breathing thing must ingest other organisms to survive. This means that all animals will fall within one of the three consumer-based categories based on the types of food that they eat.
+From the smallest of creatures to the largest of animals, inevitably every living, breathing thing must ingest other organisms to survive. 
+This means that all animals will fall within one of the three consumer-based categories based on the types of food that they eat.
 
 Animals that eat only plants are called herbivores
 Animals that eat only other animals are called carnivores
@@ -15,3 +16,16 @@ Use the eatsPlants and eatsAnimals variables to test your code.
 
 If eatsPlants equals true and eatsAnimals equals false, then herbivore should be printed to the console. 
 */
+
+let plants = false;
+let meat = true;
+
+if(plants == true && meat == false){
+    console.log("Hervivore");
+}else if(plants == false && meat == true){
+    console.log("Carnivore");
+}else if(plants == true && meat == true){
+    console.log("Omnivore");
+}else{
+    console.log("Undefined");
+}
