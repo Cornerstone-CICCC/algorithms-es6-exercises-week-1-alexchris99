@@ -10,3 +10,25 @@ Write a series of conditional statements that:
 
 */
 
+let group = 5;
+
+switch(group){
+    case 0:
+        console.log("Not a group");
+        break;
+    case 1:
+        console.log("Solo");
+        break;
+    case 2:
+        console.log("Duet");
+        break;
+    case 3:
+        console.log("Trio");
+        break;
+    case 4:
+        console.log("Quartet");
+        break;
+
+    default:
+        console.log("This is a large group");
+}
