@@ -23,10 +23,12 @@ TIP: To print out the average salary with commas (i.e. 59,124), use the toLocale
 
 */
 
-let education = "High School diploma";
+let education = "No High School diploma";
+let salary;
 switch(education){
-    case " No High School diploma":
-        console.log(`In 2015, a person with ${education} earned an average of $25,636/year.`);
+    case "No High School diploma":
+        salary = 25636;
+        console.log(`In 2015, a person with ${education} earned an average of $${salary.toLocaleString("en-us")}/year.`);
         break;
     case "High School diploma":
         console.log(`In 2015, a person with ${education} earned an average of $35,256/year.`);

@@ -1,5 +1,7 @@
 /*
-Theater seats often display a row and seat number to help theatergoers find their seats. If there are 26 rows (0 to 25) and 100 seats (0 to 99) in each row, write a nested for loop to print out all of the different seat combinations in the theater.
+Theater seats often display a row and seat number to help theatergoers find their seats. 
+If there are 26 rows (0 to 25) and 100 seats (0 to 99) in each row, write a nested for 
+loop to print out all of the different seat combinations in the theater.
 
 Example output for row-seat information: output each row and seat number on a separate line
 
@@ -11,3 +13,8 @@ row: 25 - seat: 97
 row: 25 - seat: 98
 row: 25 - seat: 99
 */
+for(let x = 0; x <= 25; x+=1){
+    for(let y = 0; y <= 99; y+=1){
+        console.log(`row-${x}-seat-${y}`);
+    }
+}
