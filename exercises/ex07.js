@@ -1,5 +1,6 @@
 /*
-In 2015, the U.S. Bureau of Labor Statistics conducted research to reveal how average salary is directly related to the number of years spent in school. In their findings, they found that people with:
+In 2015, the U.S. Bureau of Labor Statistics conducted research to reveal how average salary is directly related to the number of years spent in school. 
+In their findings, they found that people with:
 
 no high school diploma earned an average of $25,636/year,
 a high school diploma earned an average of $35,256/year,
@@ -21,3 +22,28 @@ In 2015, a person with a Bachelor's degree earned an average of $59,124/year.
 TIP: To print out the average salary with commas (i.e. 59,124), use the toLocaleString() method and pass it the locale "en-US". For example, salary.toLocaleString("en-US"). 
 
 */
+
+let education = "High School diploma";
+switch(education){
+    case " No High School diploma":
+        console.log(`In 2015, a person with ${education} earned an average of $25,636/year.`);
+        break;
+    case "High School diploma":
+        console.log(`In 2015, a person with ${education} earned an average of $35,256/year.`);
+        break;
+    case "Asociate degree":
+        console.log(`In 2015, a person with ${education} earned an average of $41,496/year.`);
+        break;
+    case "Bachelor's degree":
+        console.log(`In 2015, a person with ${education} earned an average of $59,124/year.`);
+        break;
+    case "Master's degree":
+        console.log(`In 2015, a person with ${education} earned an average of $69,732/year.`);
+        break;
+    case "Professional degree":
+        console.log(`In 2015, a person with ${education} earned an average of $89,960/year.`);
+        break;
+    case "Doctoral degree":
+        console.log(`In 2015, a person with ${education} earned an average of $84,396/year.`);
+        break;       
+}
