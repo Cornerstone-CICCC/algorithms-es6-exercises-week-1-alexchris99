@@ -33,6 +33,7 @@ T-1 seconds
 Solid rocket booster ignition and liftoff!
 */
 let x = 60;
+let delay = 1000;
 while(x >= 0){
     if(x ==  50){
         console.log("Orbiter transfers from ground to internal power ");
