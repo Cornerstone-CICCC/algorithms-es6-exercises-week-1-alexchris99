@@ -8,7 +8,7 @@ and outputs the number of
 laugh(3);
 Returns: hahaha!
 */
-laught = function(cant){
+let laugh = function(cant){
     let message = " ";
     for(let i = 0; i < cant; i++){
         message += "ha";
@@ -16,4 +16,4 @@ laught = function(cant){
     return message;
 }
 
-console.log(laught(4));
+console.log(laugh(4));
