@@ -35,18 +35,22 @@ Professionals plan out their code before writing anything. Think through the ste
 Then go through your list and convert each step into actual code. Good luck!
 */
 
+function buildTriangle(width){
+  let piramid = "";
+  for(let i = 1; i <= width; i++){
+    piramid+=makeLine(i);
+  }
+  console.log(piramid);
+}
+
 function makeLine(length) {
     var line = "";
     for (var j = 1; j <= length; j++) {
-      line += "* "
+      line += "* ";
     }
-    return line;
+    return line + "\n";
 }
 
-function buildTriangle(width){
-  for(let i = 1; i <= width; i++){
-    console.log(makeLine(i));
-  }
-}
 
-buildTriangle(10)
+buildTriangle(3);
+
