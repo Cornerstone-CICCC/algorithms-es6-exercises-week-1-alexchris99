@@ -33,11 +33,13 @@ const facebookProfile = {
     },
 
     addFriend: function incFriends(){
-        return this.NumberFriends+=1;
+        this.NumberFriends++;
+        return  this.NumberFriends;
     },
 
     delFriends: function decFriends(){
-        return this.NumberFriends-+1;
+        this.NumberFriends--;
+        return this.NumberFriends;
     }
 }
 
