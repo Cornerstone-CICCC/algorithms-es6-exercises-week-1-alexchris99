@@ -1,5 +1,6 @@
 /*
-Create an array called crew to organize the Serenity’s crew and set it equal to the variables below . You don't need to type out the actual strings, just use the provided variables.
+Create an array called crew to organize the Serenity’s crew and set it equal to the variables below . You don't need to 
+type out the actual strings, just use the provided variables.
 
 var captain = "Mal";
 var second = "Zoe";
@@ -9,3 +10,5 @@ var mercenary = "Jayne";
 var mechanic = "Kaylee";
 Then, print the crew array to the console.
 */
+const Serenitys_Crew = ["Mal","Zoe","Wash","Inara","Jayne","Kaylee"];
+console.log(Serenitys_Crew);
