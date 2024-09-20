@@ -10,5 +10,12 @@ var mercenary = "Jayne";
 var mechanic = "Kaylee";
 Then, print the crew array to the console.
 */
-const Serenitys_Crew = ["Mal","Zoe","Wash","Inara","Jayne","Kaylee"];
+var captain = "Mal";
+var second = "Zoe";
+var pilot = "Wash";
+var companion = "Inara";
+var mercenary = "Jayne";
+var mechanic = "Kaylee";
+
+const Serenitys_Crew = [captain, second, pilot, companion, mercenary, mechanic];
 console.log(Serenitys_Crew);
